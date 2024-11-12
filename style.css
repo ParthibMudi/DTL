@@ -1,0 +1,168 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+/* Dashboard Styles */
+.dashboard-container {
+    text-align: center;
+    background-color: #fffae3;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.dashboard-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.category-buttons button {
+    border-radius: 20px; /* Round corners */
+    background: linear-gradient(to bottom, #333, #000); /* Dark color gradient */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: transform 0.2s ease-in-out; /* Smooth transform on hover */
+}
+
+.category-buttons button:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+}
+
+.category-buttons button {
+    background-color: #28a745;
+    color: rgb(18, 190, 216);
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-buttons button:hover {
+    background-color: #218838;
+}
+
+.category-buttons button:nth-child(2) {
+    background-color: #007bff;
+}
+
+.category-buttons button:nth-child(2):hover {
+    background-color: #0069d9;
+}
+
+.category-buttons button:nth-child(3) {
+    background-color: #ffc107;
+}
+
+.category-buttons button:nth-child(3):hover {
+    background-color: #e0a800;
+}
+
+/* Quiz Page Styles */
+.quiz-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+#quiz-category {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Option Styles in Grid */
+.options-grid {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.options-grid li {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.options-grid li:hover {
+    background-color: #00bfff;
+    transform: scale(1.05);
+}
+
+/* Button */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Result Box */
+#result-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    font-size: 24px;
+}

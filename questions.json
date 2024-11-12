@@ -1,0 +1,38 @@
+{
+    "DSA": [
+        { "question": "What is the time complexity of binary search?", "answers": ["O(n)", "O(n^2)", "O(log n)", "O(1)"], "correct": "O(log n)" },
+        { "question": "Which data structure uses FIFO?", "answers": ["Stack", "Queue", "Tree", "Graph"], "correct": "Queue" },
+        { "question": "Which algorithm is used to find the shortest path in a graph?", "answers": ["DFS", "BFS", "Dijkstra's Algorithm", "Kruskal's Algorithm"], "correct": "Dijkstra's Algorithm" },
+        { "question": "Which data structure is best for implementing recursion?", "answers": ["Queue", "Stack", "Linked List", "Graph"], "correct": "Stack" },
+        { "question": "What is the space complexity of a heap sort?", "answers": ["O(n)", "O(n log n)", "O(log n)", "O(1)"], "correct": "O(1)" },
+        { "question": "Which traversal method is used in depth-first search (DFS)?", "answers": ["In-order", "Pre-order", "Level-order", "Post-order"], "correct": "Pre-order" },
+        { "question": "Which data structure is used in breadth-first search (BFS)?", "answers": ["Queue", "Stack", "Heap", "Tree"], "correct": "Queue" },
+        { "question": "In an AVL tree, the difference between the heights of left and right subtrees cannot exceed?", "answers": ["1", "2", "3", "4"], "correct": "1" },
+        { "question": "Which sorting algorithm is stable?", "answers": ["Quick Sort", "Heap Sort", "Merge Sort", "Selection Sort"], "correct": "Merge Sort" },
+        { "question": "What is the best case time complexity of quicksort?", "answers": ["O(n log n)", "O(n)", "O(n^2)", "O(1)"], "correct": "O(n log n)" }
+    ],
+    "AI": [
+        { "question": "Who is considered the father of AI?", "answers": ["Alan Turing", "John McCarthy", "Elon Musk", "Bill Gates"], "correct": "John McCarthy" },
+        { "question": "Which algorithm is used in reinforcement learning?", "answers": ["Q-Learning", "K-Means", "Naive Bayes", "Linear Regression"], "correct": "Q-Learning" },
+        { "question": "Which programming language is most commonly used for AI?", "answers": ["C", "Java", "Python", "JavaScript"], "correct": "Python" },
+        { "question": "Which type of learning uses labeled data?", "answers": ["Unsupervised Learning", "Supervised Learning", "Reinforcement Learning", "None"], "correct": "Supervised Learning" },
+        { "question": "Which AI model mimics the human brain?", "answers": ["Neural Networks", "Decision Trees", "Support Vector Machines", "Linear Regression"], "correct": "Neural Networks" },
+        { "question": "Which term refers to the ability of AI to improve over time?", "answers": ["Autonomy", "Generalization", "Learning", "Reinforcement"], "correct": "Learning" },
+        { "question": "What is the full form of NLP in AI?", "answers": ["Natural Logic Processing", "Natural Language Processing", "Neural Language Programming", "Non-linear Processing"], "correct": "Natural Language Processing" },
+        { "question": "Which AI technique is used to classify data?", "answers": ["Supervised Learning", "Clustering", "Sorting", "Unsupervised Learning"], "correct": "Supervised Learning" },
+        { "question": "Which AI algorithm is used for image recognition?", "answers": ["Convolutional Neural Network", "Random Forest", "Naive Bayes", "Q-Learning"], "correct": "Convolutional Neural Network" },
+        { "question": "Which is an example of unsupervised learning?", "answers": ["K-Means Clustering", "Logistic Regression", "Decision Tree", "Linear Regression"], "correct": "K-Means Clustering" }
+    ],
+    "GK": [
+        { "question": "What is the capital of France?", "answers": ["Rome", "Berlin", "Paris", "London"], "correct": "Paris" },
+        { "question": "Who is the current President of the USA?", "answers": ["Donald Trump", "Barack Obama", "Joe Biden", "George Bush"], "correct": "Joe Biden" },
+        { "question": "Which planet is known as the Red Planet?", "answers": ["Earth", "Mars", "Jupiter", "Venus"], "correct": "Mars" },
+        { "question": "Which country has the largest population?", "answers": ["India", "USA", "China", "Russia"], "correct": "China" },
+        { "question": "Which ocean is the largest?", "answers": ["Atlantic", "Pacific", "Indian", "Arctic"], "correct": "Pacific" },
+        { "question": "Which is the tallest mountain in the world?", "answers": ["Mount Kilimanjaro", "Mount Everest", "K2", "Mount Fuji"], "correct": "Mount Everest" },
+        { "question": "Who wrote 'Romeo and Juliet'?", "answers": ["Charles Dickens", "William Shakespeare", "J.K. Rowling", "Ernest Hemingway"], "correct": "William Shakespeare" },
+        { "question": "Which year did World War I begin?", "answers": ["1912", "1914", "1916", "1918"], "correct": "1914" },
+        { "question": "What is the national animal of India?", "answers": ["Lion", "Elephant", "Tiger", "Peacock"], "correct": "Tiger" },
+        { "question": "Who invented the light bulb?", "answers": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Isaac Newton"], "correct": "Thomas Edison" }
+    ]
+}

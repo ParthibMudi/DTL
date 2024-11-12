@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Start screen with name input -->
+    <div id="start-screen" class="start-screen">
+        <h1>Welcome to the Quiz</h1>
+        <label for="username">Enter your name:</label>
+        <input type="text" id="username" required>
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <!-- Quiz container -->
+    <div id="quiz-box" class="quiz-box" style="display: none;">
+        <h1 id="quiz-category"></h1>
+        <div id="question-container"></div>
+        <ul id="answer-buttons" class="options-grid"></ul>
+        <button id="next-button" style="display: none;" onclick="nextQuestion()">Next</button>
+    </div>
+    
+    <div id="result-container" style="display: none;"></div>
+
+    <!-- Home button to go back to the home page -->
+    <button onclick="goHome()" class="home-button">Home</button>
+    
+    <!-- Link to history page -->
+    <button onclick="viewHistory()" class="history-button">View History</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

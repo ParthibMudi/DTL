@@ -1,0 +1,143 @@
+
+.darken-image {
+    filter: brightness(0.6); /* Adjust the brightness value as needed */
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #c1cbed; /* Optional background color */
+  }
+
+  .category-buttons button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .category-buttons button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  .container.marketing {
+    margin-top: 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* Quiz Page Styles */
+.quiz-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+#quiz-category {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Option Styles in Grid */
+.options-grid {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.options-grid li {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.options-grid li:hover {
+    background-color: #00bfff;
+    transform: scale(1.05);
+}
+
+/* Button */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.quiz-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* Result Box */
+#result-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+.home-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
